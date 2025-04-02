@@ -43,6 +43,11 @@ h1, h2 {
     background: #dbdcde;
 }
 
+#portfolio .card-title {
+    color: #1f7798;
+    font-size: 1.2rem;
+}
+
 
 /* contact */
 
