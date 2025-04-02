@@ -13,6 +13,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #a4c2d1;
+    border-radius: 0; /* rounded corners are "too Bootstrappy" */
 }
 
 h1, h2 {
