@@ -48,6 +48,11 @@ h1, h2 {
     font-size: 1.2rem;
 }
 
+#portfolio .btn-outline-secondary:hover {
+    /* being more specific with classes is better because of unwanted targetting issues later on */
+    background: #1f7798;
+}
+
 
 /* contact */
 
