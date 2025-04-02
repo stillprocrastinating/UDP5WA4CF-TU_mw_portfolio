@@ -53,9 +53,24 @@ h1, h2 {
     background: #1f7798;
 }
 
+#portfolio .card-text {
+    /* fix for uneven card heights due to text volume */
+    min-height: 120px;
+}
+
 
 /* contact */
 
 #contact {
     background: white;
+}
+
+
+/* responsive design */
+
+@media screen and (min-width: 1200px) {
+    #portfolio .card-text {
+        /* fix for too large card heights due to wide screens */
+        min-height: auto;
+    }
 }
