@@ -21,6 +21,15 @@ h1, h2 {
 }
 
 
+/* hero */
+
+#hero {
+    background: #dbdcde url(../images/background.webp) no-repeat 50% 70% / cover;
+    padding: 5% 7%;
+    min-height: 500px;
+}
+
+
 /* about */
 
 #about {
